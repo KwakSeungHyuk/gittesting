@@ -1,6 +1,7 @@
 package com.git.controller;
 
 public class GitController {
+	
 	public void testPrint() {
 		System.out.println("프린트하는것");
 	}
@@ -10,4 +11,8 @@ public class GitController {
 		return su1+su2;
 	}
 	
+	
+	public String concatTest(String a, String b) {
+		return a+b;
+	}
 }
